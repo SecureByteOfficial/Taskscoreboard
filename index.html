@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">SecureByte</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="ambassadors.html">Ambassadors</a></li>
+      <li><a href="#leaderboard">Leaderboard</a></li>
+      <li><a href="#rewards">Rewards</a></li>
+      <li><a href="#tasks">Tasks</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Animated Text -->
+  <section class="hero-section">
+    <div class="hero-text">
+      <h1 class="dynamic-text" id="animated-text">Welcome to SecureByte Dashboard</h1>
+      <p class="slogan">Track performance, stay updated, and celebrate achievements!</p>
+    </div>
+  </section>
+
+  <!-- Search Bar Section -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search Employee by Name or ID" onkeyup="searchEmployee()">
+    <button onclick="searchEmployee()">🔍 Search</button>
+  </div>
+
+  <!-- Leaderboard Section -->
+  <section class="leaderboard">
+    <h2>Top Employees</h2>
+    <table id="leaderboard-table" class="styled-table">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Employee Name</th>
+          <th>Score</th>
+          <th>Status</th>
+          <th>Profile</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- Employee Profile Modal -->
+  <div id="profile-modal" class="profile-modal">
+    <div class="profile-card">
+      <span class="close" onclick="closeProfile()">×</span>
+      <div class="profile-header">
+        <img src="dp.png" alt="Profile Picture" class="profile-img">
+        <h2 id="profile-name">John Doe</h2>
+        <p id="profile-department">Department: IT</p>
+      </div>
+      <div class="profile-body">
+        <p><strong>ID:</strong> <span id="profile-id">12345</span></p>
+        <p><strong>Work Type:</strong> <span id="profile-work-type">Full-time</span></p>
+        <p><strong>Status:</strong> <span id="profile-status">Active</span></p>
+        <div class="social-icons">
+          <a href="#">🔗 LinkedIn</a>
+          <a href="#">🔗 GitHub</a>
+          <a href="#">🔗 Twitter</a>
+        </div>
+        <p><strong>Score:</strong> <span id="profile-score">95</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Employee Rewards Section -->
+  <section id="rewards" class="rewards">
+    <h2>Employee Rewards</h2>
+    <div id="reward-list"></div>
+  </section>
+
+  <!-- Live Employee Task Section -->
+  <section id="tasks" class="live-employee-tasks">
+    <h2>Live Employee Tasks</h2>
+    <div id="live-tasks-container"></div>
+    <div id="live-graph-container"></div>
+  </section>
+
+  <section id="points-system">
+    <h2>Points System</h2>
+    <p>Ambassadors earn 30 points per completed task.</p>
+    <p>L1 Team Leaders earn 30 points per completed task.</p>
+    <p>L2 Ambassadors earn 10 points per completed task.</p>
+    <p>Ambassadors need 300 points to upgrade from Level 1 to Level 2.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 SecureByte. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
