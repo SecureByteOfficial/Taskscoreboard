@@ -8,7 +8,7 @@ const employees = [
   { name: 'Fahim Faysal', score: 90, department: 'Campus Ambassadors', id: '84262', status: 'Offline', online: false, tasksCompleted: 7 },
   { name: 'MD FAHIM MORSHED', score: 90, department: 'Campus Ambassadors', id: '90759', status: 'Offline', online: false, tasksCompleted: 3 },
   { name: 'Nazneen Lipi', score: 290, department: 'Campus Ambassadors', id: '65432', status: 'Active', online: true, tasksCompleted: 6 },
-  { name: 'Abir Borua', score: 90, department: 'Campus Ambassadors', id: '76543', status: 'Active', online: false, tasksCompleted: 4 },
+  { name: 'Abir Barua', score: 90, department: 'Campus Ambassadors', id: '76543', status: 'Active', online: false, tasksCompleted: 4 },
 ];
 
 
