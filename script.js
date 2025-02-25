@@ -6,7 +6,7 @@ const employees = [
   { name: 'Lamim Rahman', score: 40, department: 'Campus Ambassadors', id: '13706', status: 'Offline', online: false, tasksCompleted: 5 },
   { name: 'Sharmin Sultina Eite', score: 80, department: 'Campus Ambassadors', id: '11255', status: 'Active', online: false, tasksCompleted: 1 },
   { name: 'Fahim Faysal', score: 110, department: 'Campus Ambassadors', id: '84262', status: 'Offline', online: false, tasksCompleted: 7 },
-  { name: 'MD FAHIM MORSHED', score: 110, department: 'Campus Ambassadors', id: '90759', status: 'Offline', online: false, tasksCompleted: 3 },
+  { name: 'MD FAHIM MORSHED', score: 112, department: 'Campus Ambassadors', id: '90759', status: 'Offline', online: false, tasksCompleted: 3 },
   { name: 'Nazneen Lipi', score: 310, department: 'Campus Ambassadors', id: '65432', status: 'Active', online: true, tasksCompleted: 6 },
   { name: 'khalid Hasan', score: 40, department: 'Campus Ambassadors', id: '65400', status: 'Active', online: true, tasksCompleted: 1 },
   { name: 'Abir Barua', score: 90, department: 'Campus Ambassadors', id: '76543', status: 'Active', online: false, tasksCompleted: 4 },
